@@ -1,12 +1,13 @@
 ﻿using AuthServer.Domain.Entities;
-using AuthServer.Infrastructure.Model.Auth;
-using AuthServer.Infrastructure.Model.OTP;
-using AuthServer.Infrastructure.Model.Result;
+using AuthServer.Domain.Models.Auth;
+using AuthServer.Domain.Models.OTP;
+using AuthServer.Domain.Models.Result;
 using System;
 using System.Collections.Generic;
+using System.Text;
 using System.Threading.Tasks;
 
-namespace AuthServer.Infrastructure.Repository.Users
+namespace AuthServer.Domain.Interfaces
 {
     public interface IUserRepository
     {

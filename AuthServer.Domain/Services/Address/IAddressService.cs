@@ -1,10 +1,9 @@
-﻿using AuthServer.Infrastructure.ServiceModel;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AuthServer.Infrastructure.Service.Address
+namespace AuthServer.Domain.Services.Address
 {
     public interface IAddressService
     {

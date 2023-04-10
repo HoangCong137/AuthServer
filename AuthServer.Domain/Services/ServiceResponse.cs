@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace AuthServer.Infrastructure.ServiceModel
+namespace AuthServer.Domain.Services
 {
     public class ServiceResponse
     {
@@ -16,14 +16,14 @@ namespace AuthServer.Infrastructure.ServiceModel
         {
         }
 
-        internal static ServiceResponse Succeed(int statusCode, object data = default) => new ServiceResponse
+        public static ServiceResponse Succeed(int statusCode, object data = default) => new ServiceResponse
         {
             StatusCode = statusCode,
             Data = data,
             Succeeded = true
         };
 
-        internal static ServiceResponse Fail(int statusCode, string code, string message) => new ServiceResponse
+        public static ServiceResponse Fail(int statusCode, string code, string message) => new ServiceResponse
         {
             StatusCode = statusCode,
             Code = code,

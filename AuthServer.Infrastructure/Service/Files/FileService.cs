@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
 using System.IO;
+using AuthServer.Domain.Services.Files;
 
 namespace AuthServer.Infrastructure.Service.Files
 {

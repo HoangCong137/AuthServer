@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace AuthServer.Infrastructure.Model.Config
+namespace AuthServer.Domain.Models.Config
 {
     public class JwtOptions
     {

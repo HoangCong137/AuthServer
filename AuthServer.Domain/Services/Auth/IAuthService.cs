@@ -1,14 +1,13 @@
 ﻿using AuthServer.Domain.Entities;
-using AuthServer.Infrastructure.Model.Auth;
-using AuthServer.Infrastructure.ServiceModel;
-using AuthServer.Infrastructure.ViewModel;
+using AuthServer.Domain.Models.Auth;
+using AuthServer.Domain.ViewModels;
 using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AuthServer.Infrastructure.Service.Auth
+namespace AuthServer.Domain.Services.Auth
 {
     public interface IAuthService
     {

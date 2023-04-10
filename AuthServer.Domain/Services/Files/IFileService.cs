@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AuthServer.Infrastructure.Service.Files
+namespace AuthServer.Domain.Services.Files
 {
     public interface IFileService
     {

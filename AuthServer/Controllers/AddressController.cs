@@ -1,5 +1,6 @@
-﻿using AuthServer.Infrastructure.Service.Address;
-using AuthServer.Infrastructure.ServiceModel;
+﻿using AuthServer.Domain.Services;
+using AuthServer.Domain.Services.Address;
+using AuthServer.Infrastructure.Service.Address;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;

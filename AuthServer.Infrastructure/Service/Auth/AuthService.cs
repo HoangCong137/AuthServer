@@ -10,12 +10,7 @@ using System.Threading.Tasks;
 using AuthServer.Infrastructure.Common.Service;
 using AuthServer.Domain.Entities;
 using AuthServer.Domain.Shared;
-using AuthServer.Infrastructure.Model;
-using AuthServer.Infrastructure.Model.Auth;
-using AuthServer.Infrastructure.Model.Config;
 using AuthServer.Infrastructure.Repository;
-using AuthServer.Infrastructure.ServiceModel;
-using AuthServer.Infrastructure.ViewModel;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Data.SqlClient;
 using Microsoft.Extensions.Configuration;
@@ -24,9 +19,13 @@ using Microsoft.IdentityModel.Tokens;
 using Dapper;
 using Microsoft.AspNetCore.Http;
 using AuthServer.Infrastructure.Repository.Users;
-using Microsoft.Data.SqlClient;
-using AuthServer.Infrastructure.Service.Files;
-using AuthServer.Infrastructure.Repository;
+using AuthServer.Domain.Models.Auth;
+using AuthServer.Domain.Models.Config;
+using AuthServer.Domain.Interfaces;
+using AuthServer.Domain.ViewModels;
+using AuthServer.Domain.Services;
+using AuthServer.Domain.Services.Files;
+using AuthServer.Domain.Services.Auth;
 
 namespace AuthServer.Infrastructure.Service.Auth
 {

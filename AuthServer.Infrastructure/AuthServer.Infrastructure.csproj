@@ -11,6 +11,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Include="Migrations\20230410044302_InitialCreate.cs" />
+    <Compile Include="Migrations\20230410044302_InitialCreate.Designer.cs" />
+    <Compile Include="Migrations\AppDBContextModelSnapshot.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Dapper" Version="2.0.90" />
     <PackageReference Include="MailKit" Version="2.13.0" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.9" />

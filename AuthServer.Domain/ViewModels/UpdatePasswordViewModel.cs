@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 
-namespace AuthServer.Infrastructure.ViewModel
+namespace AuthServer.Domain.ViewModels
 {
     public class UpdatePasswordViewModel
     {

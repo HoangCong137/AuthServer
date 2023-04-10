@@ -1,4 +1,4 @@
-﻿using AuthServer.Infrastructure.ServiceModel;
+﻿using AuthServer.Domain.Services;
 using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;

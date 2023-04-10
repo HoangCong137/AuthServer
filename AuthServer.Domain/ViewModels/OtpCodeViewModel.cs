@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace AuthServer.Infrastructure.ViewModel
+namespace AuthServer.Domain.ViewModels
 {
     public class OtpCodeViewModel
     {

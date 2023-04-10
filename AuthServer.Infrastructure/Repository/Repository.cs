@@ -1,4 +1,5 @@
-﻿using AuthServer.Infrastructure.Data.Identity;
+﻿using AuthServer.Domain.Interfaces;
+using AuthServer.Infrastructure.Data.Identity;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;

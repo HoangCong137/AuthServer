@@ -1,6 +1,7 @@
-﻿using AuthServer.Infrastructure.Service.OTP;
-using AuthServer.Infrastructure.ServiceModel;
-using AuthServer.Infrastructure.ViewModel;
+﻿using AuthServer.Domain.Services;
+using AuthServer.Domain.Services.OTP;
+using AuthServer.Domain.ViewModels;
+using AuthServer.Infrastructure.Service.OTP;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;

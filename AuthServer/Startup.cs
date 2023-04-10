@@ -1,7 +1,6 @@
 
 using AuthServer.Infrastructure.Data.Identity;
 using AuthServer.Domain.Entities;
-using AuthServer.Infrastructure.Model.Config;
 using AuthServer.Infrastructure.Repository;
 using AuthServer.Infrastructure.Repository.Users;
 using AuthServer.Infrastructure.Service.Address;
@@ -21,6 +20,12 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System;
 using System.Text;
+using AuthServer.Domain.Interfaces;
+using AuthServer.Domain.Models.Config;
+using AuthServer.Domain.Services.Auth;
+using AuthServer.Domain.Services.Address;
+using AuthServer.Domain.Services.OTP;
+using AuthServer.Domain.Services.Files;
 
 namespace AuthServer
 {

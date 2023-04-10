@@ -1,11 +1,13 @@
 ﻿using AuthServer.Infrastructure.Common.Service;
 using AuthServer.Domain.Entities;
 using AuthServer.Infrastructure.Repository;
-using AuthServer.Infrastructure.ServiceModel;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
+using AuthServer.Domain.Interfaces;
+using AuthServer.Domain.Services;
+using AuthServer.Domain.Services.Address;
 
 namespace AuthServer.Infrastructure.Service.Address
 {

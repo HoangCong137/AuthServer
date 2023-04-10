@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace AuthServer.Infrastructure.Model.Auth
+namespace AuthServer.Domain.Models.Auth
 {
     public class Claims
     {

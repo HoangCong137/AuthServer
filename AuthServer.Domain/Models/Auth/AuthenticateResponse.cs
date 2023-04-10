@@ -1,9 +1,8 @@
-﻿using AuthServer.Domain.Entities;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace AuthServer.Infrastructure.Model.Auth
+namespace AuthServer.Domain.Models.Auth
 {
     public class AuthenticateResponse : AuthResponse
     {

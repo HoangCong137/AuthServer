@@ -1,6 +1,4 @@
-﻿using AuthServer.Infrastructure.ServiceModel;
-using AuthServer.Infrastructure.ViewModel;
-using Microsoft.AspNetCore.Authorization;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -9,10 +7,13 @@ using AuthServer.Domain.Entities;
 using System;
 using Swashbuckle.AspNetCore.Annotations;
 using System.Linq;
-using AuthServer.Infrastructure.Model.Auth;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.FileProviders.Physical;
 using AuthServer.Infrastructure.Service.Auth;
+using AuthServer.Domain.Models.Auth;
+using AuthServer.Domain.ViewModels;
+using AuthServer.Domain.Services;
+using AuthServer.Domain.Services.Auth;
 
 namespace AuthServer.Controllers
 {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace AuthServer.Infrastructure.Model.Result
+namespace AuthServer.Domain.Models.Result
 {
     public class PagedResult<T>
     {

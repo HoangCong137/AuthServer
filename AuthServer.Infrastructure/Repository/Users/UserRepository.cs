@@ -1,7 +1,8 @@
 ﻿using AuthServer.Domain.Entities;
-using AuthServer.Infrastructure.Model.Auth;
-using AuthServer.Infrastructure.Model.OTP;
-using AuthServer.Infrastructure.Model.Result;
+using AuthServer.Domain.Interfaces;
+using AuthServer.Domain.Models.Auth;
+using AuthServer.Domain.Models.OTP;
+using AuthServer.Domain.Models.Result;
 using Dapper;
 using Microsoft.Data.SqlClient;
 using Microsoft.Extensions.Configuration;

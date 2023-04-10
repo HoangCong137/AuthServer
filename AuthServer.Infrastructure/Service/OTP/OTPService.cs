@@ -1,7 +1,6 @@
 ﻿using AuthServer.Infrastructure.Common.Service;
 using AuthServer.Infrastructure.Data.Identity;
 using AuthServer.Domain.Entities;
-using AuthServer.Infrastructure.ServiceModel;
 using MailKit.Net.Smtp;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Data.SqlClient;
@@ -13,6 +12,9 @@ using System.Threading.Tasks;
 using Dapper;
 using AuthServer.Infrastructure.Repository.Users;
 using AuthServer.Infrastructure;
+using AuthServer.Domain.Interfaces;
+using AuthServer.Domain.Services.OTP;
+using AuthServer.Domain.Services;
 
 namespace AuthServer.Infrastructure.Service.OTP
 {
